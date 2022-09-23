@@ -14,9 +14,29 @@ class ToDoListController extends AbstractController
     public function index(): Response
     {
         return $this->render('index.html.twig');
-//        return $this->json([
-//            'message' => 'Welcome to your new controller!',
-//            'path' => 'src/Controller/ToDoListController.php',
-//        ]);
+    }
+
+    /**
+     * @Route("/create", name="create_task", methods={"POST"})
+     */
+    public function create(): Response
+    {
+        exit('to do: create a new task!');
+    }
+
+    /**
+     * @Route("/switch-status/{id}", name="switch_status")
+     */
+    public function switchStatus($id): Response
+    {
+        exit('to do: switch status of the task! ' . $id);
+    }
+
+    /**
+     * @Route("/delete/{id}", name="task_delete")
+     */
+    public function taskDelete($id): Response
+    {
+        exit('to do: delete a task with the id of ' . $id);
     }
 }
