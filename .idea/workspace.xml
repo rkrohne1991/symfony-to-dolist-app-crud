@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e6eb2c57-c22e-41d3-9e2d-992f08c08591" name="Changes" comment="Displaying list of all tasks from Database">
+    <list default="true" id="e6eb2c57-c22e-41d3-9e2d-992f08c08591" name="Changes" comment="Switching status of the task">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Controller/ToDoListController.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Controller/ToDoListController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html.twig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +161,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664180824087</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Switching status of the task">
+      <created>1664181426464</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1664181426464</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,6 +191,7 @@
     <MESSAGE value="Creating controller methods for switching status, creating task and deleting task" />
     <MESSAGE value="Adding packages, creating Task entity, adding data to database" />
     <MESSAGE value="Displaying list of all tasks from Database" />
-    <option name="LAST_COMMIT_MESSAGE" value="Displaying list of all tasks from Database" />
+    <MESSAGE value="Switching status of the task" />
+    <option name="LAST_COMMIT_MESSAGE" value="Switching status of the task" />
   </component>
 </project>

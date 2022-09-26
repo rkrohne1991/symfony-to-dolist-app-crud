@@ -9,6 +9,10 @@
         </form>
     </div>
 
+    {% if tasks|length == 0 %}
+        <h3>Task list is empty</h3>
+    {% endif %}
+
     <ul>
         {% for task in tasks %}
             <li {% if task.status %}class="checked"{% endif %}>
